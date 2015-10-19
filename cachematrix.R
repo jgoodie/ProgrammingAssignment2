@@ -31,11 +31,11 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 #
-#  Function to calculate the inverse of the special "matrix" returned makeCacheMatrix()
+#  Function to calculate the inverse of the special "matrix" returned by makeCacheMatrix()
 #  If the inverse has alread been calculated (and the matrix has not changed), then 
 #  cacheSolve() should return the inverse from the cache
 #  cacheSolve() assumes the matrix given is always invertible
-#  If the matrix give cannot be inverted solve()/cacheSolve() will generate an error.
+#  If the matrix given cannot be inverted solve()/cacheSolve() will generate an error.
 #
 
 cacheSolve <- function(x, ...) {
